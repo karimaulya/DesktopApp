@@ -1,0 +1,14 @@
+{
+  "name": "desktopapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron"
+  },
+  "author": "oya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  }
+}
