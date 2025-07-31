@@ -16,7 +16,7 @@ function createWindow() {
   });
 
   win.removeMenu();
-  win.loadFile("index.html");
+  win.loadFile("html/index.html");
   
   ipcMain.on("load-page", (event, page) => {
     win.loadFile(page);
