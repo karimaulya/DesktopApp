@@ -25,7 +25,7 @@ for (let i = 0; i < localStorage.length; i++) {
 
         // Tombol edit
         const editBtn = document.createElement("button");
-        editBtn.textContent = "✏️ Edit";
+        editBtn.textContent = "✏️Edit";
         editBtn.onclick = function () {
             localStorage.setItem("selectedDate", date);
             window.location.href = "notes.html";
