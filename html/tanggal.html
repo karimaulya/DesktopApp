@@ -9,21 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Select Date</h1>
+<body class="tanggal-body">
+    <header class="header-bar">
+        <img src="assets/To Do List.svg" alt="Logo" class="header-logo">
         <nav>
-            <a href="index.html">Home</a>
+            <img src="assets/Back To.svg" alt="Back Icon" class="back-icon" id="back-icon">
+            <img src="assets/Home.svg" alt="Home Icon" class="home-icon" id="home-icon">
         </nav>
     </header>
     <main>
         <section class="tanggal-section">
-            <ul id="tanggal">
+            <section id="notes-preview"></section>
+            <ul id="tanggal" class="tanggal-input">
                 <input type="date" id="tanggalInput"/>
                 <button id="add-new-btn">Add new note</button>
-    
             </ul>
-            <section id="notes-preview"></section>
         </section>
     </main>
     <footer>
