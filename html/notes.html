@@ -9,16 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>To Do List</h1>
-        <p>Create and save your notes</p>
+<body class="notes-body">
+    <header class="header-bar">
+        <img src="assets/To Do List.svg" alt="Logo" class="header-logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="tanggal.html">Back</a>
+            <img src="assets/Back To.svg" alt="Back Icon" class="back-icon" id="back-icon">
+            <img src="assets/Home.svg" alt="Home Icon" class="home-icon" id="home-icon">
         </nav>
     </header>
-    <main>
+    <main class="notes-main">
     <h2 id="selected-date-title"></h2>
         <section class="checklist-section">
             <ul id="checklist">
@@ -40,7 +39,7 @@
         <section class="note-section">
             <textarea placeholder="Write your note here..." rows ="10" cols="50"></textarea>
         </section>
-        <button id="save-note-btn">Save Note</button>
+        <button id="save-note-btn">save note</button>
     </main>
     <footer>
         <p>&copy; 2025 - Oya's App</p>

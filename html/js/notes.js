@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("home-icon").addEventListener("click", function () {
+    window.location.href = "index.html";
+});
+document.getElementById("back-icon").addEventListener("click", function () {   
+    window.location.href = "tanggal.html";
+});
+    
     const selectedDate = localStorage.getItem("selectedDate");
     const noteKey = `note-${selectedDate}`;
     const taskKey = `tasks-${selectedDate}`;
@@ -72,3 +79,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+// if (task.done) {
+//     document.getElementById("note-card").addEventListener(function (
+//         alert("Task already done!"
+//     ))
+// }
