@@ -106,7 +106,9 @@ footer {
 
 .tanggal-section {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
 }
 
 .tanggal-input {
@@ -178,6 +180,9 @@ footer {
   padding: 10px;
   border-radius: 15px;
   box-sizing: border-box;
+  width: 180px;
+  flex: 0 0 auto;
+  margin: 10px;
 }
 
 #notes-preview h3, p{
@@ -219,14 +224,16 @@ footer {
   background-color:aliceblue;
   box-sizing: border-box;
   border-radius: 15px;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-right: 20px;
   min-height: 440px; 
   max-height: auto;   
-  min-width: 700px; 
-  max-width: 700px; 
+  /* min-width: 700px; 
+  max-width: 700px;  */
   padding : 20px;
   padding-top: 10px;
+  width: 98%;
+  flex: 0 0 auto;
 }
 
 #selected-date-title {
